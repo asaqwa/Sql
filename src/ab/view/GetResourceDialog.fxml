@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="160.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ab.view.GetResourceDialog">
+   <children>
+      <Label fx:id="label" layoutX="110.0" layoutY="37.0" text="Label" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="37.0" />
+      <TextField fx:id="textField" layoutX="110.0" layoutY="84.0" prefWidth="165.0" AnchorPane.rightAnchor="15.0" />
+      <HBox layoutX="37.0" layoutY="121.0" prefHeight="25.0" prefWidth="234.0" spacing="70.0" AnchorPane.rightAnchor="4.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleOk" prefWidth="65.0" text="Ok" />
+            <Button mnemonicParsing="false" onAction="#handleCancel" prefWidth="65.0" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
